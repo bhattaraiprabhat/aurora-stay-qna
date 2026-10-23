@@ -9,6 +9,8 @@ import requests
 
 BACKEND_URL = "http://localhost:7860"
 
+import os
+RAG_API_URL = os.environ.get("RAG_API_URL", "http://localhost:7860")
 
 # ---------------------------------------------------------
 # Page configuration
